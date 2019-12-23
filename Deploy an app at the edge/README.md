@@ -1,19 +1,3 @@
-# Deploy Your First Edge App
-
-So far, you've downloaded some pre-trained models, handled their inputs, and learned how
-to handle outputs. In this exercise, you'll implement the handling of the outputs of our three
-models from before, and get to see inference actually performed by adding these models
-to some example edge applications. 
-
-There's a lot of code still involved behind the scenes here. With the Pre-Trained Models 
-available with the OpenVINO toolkit, you don't need to worry about the Model Optimizer, but
-there is still work done to load the model into the Inference Engine. We won't learn about 
-this code until later, so in this case, you'll just need to call your functions to handle the input
-and output of the model within the app.
-
-If you do want a sneak preview of some of the code that interfaces with the Inference Engine,
-you can check it out in `inference.py`. You'll work out of the `handle_models.py` file, as 
-well as adding functions calls within the edge app in `app.py`.
 
 ## TODOs
 
